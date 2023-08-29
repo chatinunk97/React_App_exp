@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;800&display=swap");
+//Global Size
+$headersize: 7vh;
+$sidebarsize: 15vw;
+
+//Global Color
+$primary: #16161a;
+$secondary: #7f5af0;
+$border : #010101;
+
+/////////////
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /*equal font-size : 10px*/
+  font-family: "M PLUS 1p", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}

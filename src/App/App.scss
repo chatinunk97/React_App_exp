@@ -1,0 +1,28 @@
+@import "../index.scss";
+
+.app {
+  background-color: $primary;
+  color: white;
+
+  display: grid;
+  grid-template-rows: $headersize calc(100vh - $headersize);
+  grid-template-columns: $sidebarsize calc(100vw - $sidebarsize);
+
+  &__header {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  &__sidebar {
+    padding-inline: 5px;
+    grid-column: 1/2;
+    grid-row: 2/-1;
+  }
+  &__main {
+    padding-left: 20px;
+    padding-top: 20px;
+    // border-left: 1px solid blue;
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+  }
+}
