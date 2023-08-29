@@ -6,9 +6,12 @@
         justify-content: center;
         align-items: center;
         height: 10vh;
+        background-color: $secondary;
+        min-width: 20px;
+    min-height: 50px;
 
     }
     &__bt:hover{
-        background-color: $secondary;
+        background-color: $highlight;
     }
 }
